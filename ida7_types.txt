@@ -1,0 +1,652 @@
+ida_kernwin.Choose
+ida_ua.insn_t.ops
+ida_kernwin.Choose.OnSelectLine
+ida_bytes.data_type_t.__init__
+ida_idp.IDP_Hooks.ev_auto_queue_empty
+ida_kernwin.AST_ENABLE_FOR_WIDGET
+ida_kernwin.AST_DISABLE_FOR_WIDGET
+ida_kernwin.CB_INVISIBLE
+ida_kernwin.chtype_generic
+ida_kernwin.chtype_srcp
+ida_kernwin.close_widget
+ida_kernwin.find_widget
+ida_kernwin.get_current_widget
+ida_kernwin.get_widget_title
+ida_kernwin.get_widget_type
+ida_kernwin.is_chooser_widget
+ida_kernwin.display_widget
+ida_kernwin.pyscv_get_widget
+ida_kernwin.pyscv_get_widget
+ida_kernwin.activate_widget
+ida_kernwin.msg
+ida_kernwin.UI_Hooks.widget_visible
+ida_kernwin.UI_Hooks.widget_invisible
+ida_kernwin.UI_Hooks.populating_widget_popup
+ida_kernwin.UI_Hooks.finish_populating_widget_popup
+ida_kernwin.UI_Hooks.current_widget_changed
+ida_kernwin.ask_form
+0
+0
+0
+0
+ida_kernwin.open_form
+_ida_kernwin._ask_addr
+_ida_kernwin._ask_long
+_ida_kernwin._ask_seg
+ida_kernwin.ask_addr
+ida_kernwin.ask_buttons
+ida_kernwin.ask_file
+ida_kernwin.ask_ident
+ida_kernwin.ask_long
+ida_kernwin.ask_str(defval, 0, fmt)
+ida_kernwin.ask_seg
+ida_kernwin.ask_str(defval, hist, fmt)
+ida_kernwin.ask_text
+ida_kernwin.ask_yn
+ida_kernwin.choose_activate
+ida_kernwin.choose_close
+ida_kernwin.choose_find
+ida_kernwin.lambda *args: None
+ida_kernwin.choose_refresh
+ida_kernwin.clr_cancelled
+ida_kernwin.py_get_ask_form
+ida_kernwin.py_get_open_form
+ida_kernwin.set_cancelled
+ida_kernwin.user_cancelled
+ida_kernwin.refresh_choosers
+ida_range.range_t.start_ea
+ida_range.range_t.end_ea
+ida_funcs.func_t.start_ea
+ida_funcs.func_t.end_ea
+ida_segment.segment_t.start_ea
+ida_segment.segment_t.end_ea
+ida_kernwin.PluginForm.WOPN_MDI
+ida_kernwin.PluginForm.WOPN_TAB
+ida_kernwin.PluginForm.WOPN_RESTORE
+ida_kernwin.PluginForm.WOPN_ONTOP
+ida_kernwin.PluginForm.WOPN_MENU
+ida_kernwin.PluginForm.WOPN_CENTERED
+ida_kernwin.PluginForm.WOPN_PERSIST
+ida_kernwin.PluginForm.WCLS_SAVE
+ida_kernwin.PluginForm.WCLS_NO_CONTEXT
+ida_kernwin.PluginForm.WCLS_DONT_SAVE_SIZE
+ida_kernwin.PluginForm.WCLS_CLOSE_LATER
+ida_lines.add_extra_cmt
+ida_lines.add_extra_line
+ida_search.find_suspop
+ida_segregs
+ida_segregs.set_default_sreg_value
+ida_segregs.copy_sreg_ranges
+ida_segregs.del_sreg_range
+ida_segregs.get_sreg
+ida_segregs.get_prev_sreg_range
+ida_segregs.get_sreg_range
+ida_segregs.get_sreg_range_num
+ida_segregs.get_sreg_range_qty
+ida_segregs.getn_sreg_range
+FALSE
+ida_segregs.sreg_range_t
+ida_segregs.split_sreg_range
+ida_segregs.split_sreg_range
+ida_segregs.get_sreg
+ida_segregs.set_default_sreg_value
+ida_idd.NO_THREAD
+str(s).lower()
+str(s).upper()
+ida_segment.CSS_NORANGE
+ida_segment.SEGMOD_KEEP
+ida_segment.SEGMOD_KEEP0
+ida_segment.SEGMOD_KILL
+ida_segment.SEGMOD_SILENT
+ida_segment.sel2para
+ida_segment.set_segment_cmt(s, "", rpt)
+ida_segment.get_segm_name
+ida_range
+ida_range.range_t
+ida_frame.add_auto_stkpnt
+ida_frame.get_stkvar(op, insn, v)
+ida_frame.get_frame_part(range, pfn, part)
+ida_strlist.build_strlist
+ida_problems
+ida_problems.cvar.PR_END
+ida_problems.cvar.PR_ATTN
+ida_problems.cvar.PR_BADSTACK
+ida_problems.cvar.PR_COLLISION
+ida_problems.cvar.PR_DECIMP
+ida_problems.cvar.PR_DISASM
+ida_problems.cvar.PR_FINAL
+ida_problems.cvar.PR_HEAD
+ida_problems.cvar.PR_JUMP
+ida_problems.cvar.PR_MANYLINES
+ida_problems.cvar.PR_NOBASE
+ida_problems.cvar.PR_NOCMT
+ida_problems.cvar.PR_NOFOP
+ida_problems.cvar.PR_NONAME
+ida_problems.cvar.PR_NOXREFS
+ida_problems.cvar.PR_ILLADDR
+ida_problems.cvar.PR_ROLLED
+ida_problems.forget_problem
+ida_problems.get_problem_desc
+ida_problems.get_problem
+ida_problems.is_problem_present
+ida_problems.remember_problem
+ida_problems.get_problem_name(t, True)
+ida_problems.get_problem_name(t, False)
+0
+ida_loader.save_database(path, ida_loader.DBFL_KILL)
+ida_loader.save_database
+64
+0
+ida_idp.CUSTOM_INSN_ITYPE
+ida_idp.has_insn_feature
+0
+0
+ida_idp.SETPROC_LOADER_NON_FATAL
+ida_idp.SETPROC_IDB
+ida_idp.SETPROC_LOADER
+ida_idp.range_cmt_changed
+ida_idp.stkpnts_changed
+ida_idp.struc_align_changed
+ida_idp.changing_range_cmt
+ida_idp.changing_struc_align
+ida_idp.func_tail_deleted
+ida_idp.get_reg_info
+ida_idp.ph_get_reg_code_sreg
+ida_idp.ph_get_reg_data_sreg
+ida_idp.ph_get_reg_first_sreg
+ida_idp.ph_get_reg_last_sreg
+ida_idp.deleting_func_tail
+ida_idp.segm_attrs_updated
+ida_idp.str2reg
+ida_idp.parse_reg_name(reg_info_t, regname)
+ida_dbg.get_processes
+ida_dbg.get_processes
+ida_funcs.FUNC_STATICDEF
+ida_funcs.add_regarg
+lambda *args: True
+ida_funcs.set_func_cmt(pfn, "", rpt)
+ida_funcs.func_parent_iterator_set
+ida_funcs.set_func_end
+ida_funcs.set_func_start
+ida_funcs.func_tail_iterator_set
+ida_funcs.get_func_name
+ida_name.demangle_name(name, mask, ida_name.DQT_FULL)
+ida_name.demangle_name
+ida_name.force_name(ea, name)
+ida_name.extract_name
+ida_name.get_debug_name
+ida_name.get_name
+ida_name.is_ident_cp
+ida_name.is_visible_cp
+ida_name.validate_name(name, ida_name.VNT_VISIBLE)
+ida_name.validate_name(name, ida_name.VNT_IDENT)
+ida_name.validate_name(name, ida_name.VNT_IDENT)
+ida_name.is_ident
+ida_name.get_name(ea)
+0
+ida_enum.ENUM_MEMBER_ERROR_NAME
+ida_enum.ENUM_MEMBER_ERROR_VALUE
+ida_enum.ENUM_MEMBER_ERROR_ENUM
+ida_enum.ENUM_MEMBER_ERROR_MASK
+ida_enum.ENUM_MEMBER_ERROR_ILLV
+ida_enum.add_enum_member
+ida_enum.del_enum_member
+ida_enum.get_enum_member
+ida_enum.get_enum_member_bmask
+ida_enum.get_enum_member_by_name
+ida_enum.get_enum_member_cmt
+ida_enum.get_enum_member_enum
+ida_enum.get_enum_member_name
+ida_enum.get_enum_member_serial
+ida_enum.get_enum_member_value
+ida_enum.get_first_enum_member
+ida_enum.get_first_serial_enum_member
+ida_enum.get_last_enum_member
+ida_enum.get_last_serial_enum_member
+ida_enum.get_next_enum_member
+ida_enum.get_next_serial_enum_member
+ida_enum.get_prev_enum_member
+ida_enum.get_prev_serial_enum_member
+ida_enum.set_enum_member_cmt
+ida_enum.set_enum_member_name
+ida_enum.get_next_serial_enum_member(serial, cid)
+ida_enum.get_prev_serial_enum_member(serial, cid)
+ida_expr.compile_idc_file
+ida_expr.compile_idc_file
+ida_expr.compile_idc_text
+ida_expr.VT_STR
+ida_expr.copy_idcv
+ida_expr.del_idcv_attr
+ida_expr.deref_idcv
+ida_expr.first_idcv_attr
+ida_expr.get_idcv_attr(res, obj, attr, may_use_getattr)
+ida_expr.get_idcv_class_name
+ida_expr.get_idcv_slice
+ida_expr.idcv_int64
+ida_expr.last_idcv_attr
+ida_expr.move_idcv
+ida_expr.next_idcv_attr
+ida_expr.idcv_object
+ida_expr.prev_idcv_attr
+ida_expr.print_idcv
+ida_expr.create_idcv_ref
+ida_expr.set_idcv_attr
+ida_expr.set_idcv_slice
+ida_expr.idcv_string
+ida_expr.swap_idcvs
+ida_expr.eval_idc_expr(res, where, expr)
+ida_expr.eval_expr(res, where, expr)
+ida_expr.exec_system_script(fname, complain_if_no_file)
+ida_expr.eval_idc_snippet(None, line)
+ida_expr.py_add_idc_func
+ida_expr.add_idc_func(name, fp, args, (), flags)
+ida_auto.plan_and_wait
+ida_auto.auto_cancel
+ida_auto.auto_is_ok
+ida_auto.auto_mark
+ida_auto.auto_unmark
+ida_auto.auto_wait
+ida_auto.plan_ea
+ida_auto.set_ida_state
+ida_auto.show_addr
+ida_auto.show_auto
+7
+ida_nalt.STRTYPE_LEN2
+ida_nalt.STRTYPE_LEN4
+ida_nalt.STRTYPE_PASCAL
+ida_nalt.STRTYPE_TERMCHR
+ida_nalt.STRTYPE_LEN2_16
+ida_nalt.STRTYPE_LEN4_16
+ida_nalt.STRTYPE_C_16
+ida_nalt.STRTYPE_C_16
+ida_nalt.STRTYPE_C_32
+ida_nalt.V695_REF_VHIGH
+ida_nalt.V695_REF_VLOW
+ida_nalt.SWI_DEF_IN_TBL
+0x8000
+ida_nalt.SWI_INDIRECT >> 16
+ida_nalt.SWI_SUBTRACT >> 16
+ida_netnode.BADNODE
+ida_nalt.rename_encoding
+ida_nalt.del_op_tinfo(ea, n) if n is not None else ida_nalt.del_tinfo(ea)
+ida_nalt.get_encoding_qty
+ida_nalt.get_op_tinfo(tinfo_t, ea, n)
+ida_nalt.get_op_tinfo
+(strtype & STRWIDTH_MASK) > 0
+ida_nalt.set_op_tinfo
+ida_nalt.set_tinfo
+ida_nalt.switch_info_t.regdtype
+ida_nalt.get_tinfo(tinfo_t, ea)
+ida_nalt.get_tinfo
+ida_nalt.get_refinfo(refinfo, ea, n)
+ida_nalt.get_switch_info
+ida_nalt.set_switch_info
+ida_nalt.del_switch_info
+ida_nalt.switch_info_t.flags
+ida_nalt.switch_info_t.flags
+ida_nalt.switch_info_t
+ida_graph.clr_node_info
+ida_graph.del_node_info
+ida_graph.get_node_info
+ida_graph.set_node_info
+ida_graph.GraphViewer.GetWidget
+0
+0
+0
+ida_typeinf.PRALOC_VERIFY
+ida_typeinf.PRALOC_STKOFF
+ida_typeinf.TERR_WRONGNAME
+ida_typeinf.add_til(name, flags)
+ida_typeinf.add_til
+ida_typeinf.apply_cdecl
+ida_typeinf.apply_cdecl
+ida_typeinf.apply_tinfo
+ida_typeinf.calc_c_cpp_name
+ida_typeinf.choose_local_tinfo
+ida_typeinf.choose_named_type
+ida_typeinf.deref_ptr
+ida_typeinf.extract_argloc
+ida_typeinf.const_aloc_visitor_t
+ida_typeinf.for_all_const_arglocs
+ida_typeinf.for_all_arglocs
+ida_typeinf.gen_decorate_name(name, mangle, cc, None)
+ida_typeinf.get_enum_member_expr
+ida_typeinf.get_idainfo_by_type
+ida_typeinf.guess_tinfo(pfn.start_ea, tif)
+ida_typeinf.load_til
+ida_typeinf.lower_type
+ida_typeinf.optimize_argloc
+ida_typeinf.parse_decl(tif, til, decl, flags)
+ida_typeinf.print_type(ea, PRTYPE_1LINE if else 0)
+ida_typeinf.print_type
+ida_typeinf.print_type
+ida_typeinf.print_argloc
+ida_typeinf.resolve_typedef
+ida_typeinf.scattered_aloc_t
+ida_typeinf.set_compiler
+ida_typeinf.argloc_t
+ida_typeinf.argpart_t
+ida_typeinf.verify_argloc
+ida_typeinf.aloc_visitor_t
+ida_typeinf.guess_tinfo(tinfo_t, id)
+ida_typeinf.guess_tinfo
+ida_typeinf.find_tinfo_udt_member(udm, typid, strmem_flags)
+ida_typeinf.find_udt_member(udm, strmem_flags)
+ida_typeinf.save_tinfo(tinfo_t, til_t, size_t, name, int)
+ida_ua.get_dtype_by_size
+ida_ua.get_dtype_flag
+ida_ua.get_dtype_size
+ida_ua.get_immvals
+ida_ua.op_t.dtype
+ida_ua.insn_t()
+ida_ua.decode_insn(insn_t, ea)
+ida_ua.create_insn(insn_t, ea)
+ida_ua.decode_prev_insn(insn_t, ea)
+ida_ua.decode_preceding_insn(insn_t, ea)
+ida_ida.UA_MAXOP
+ida_ua.dt_byte
+0
+0
+0
+0
+0
+0
+ida_ua.insn_t.add_cref(to, opoff, rtype)
+ida_ua.insn_t.add_dref(to, opoff, rtype)
+ida_ua.insn_t.add_off_drefs(x, rtype, 0)
+ida_ua.insn_t.add_off_drefs(x, rtype, outf)
+ida_ua.insn_t.create_op_data(ea, 0, dtype)
+ida_ua.insn_t.create_op_data(ea, opoff, dtype)
+ida_ua.insn_t.create_stkvar(x, v, flags)
+ida_diskio.create_generic_linput
+ida_diskio.generic_linput_t
+ida_offset.calc_basevalue
+ida_offset.calc_target
+ida_offset.op_offset(ea, n, ida_ua.get_default_reftype(ea), ida_idaapi.BADADDR, base) > 0
+ida_netnode.netnode.altfirst
+ida_netnode.netnode.altfirst_idx8
+ida_netnode.netnode.altnext
+ida_netnode.netnode.charfirst
+ida_netnode.netnode.charfirst_idx8
+ida_netnode.netnode.charnext
+ida_netnode.netnode.hashfirst
+ida_netnode.netnode.hashnext
+ida_netnode.netnode.supfirst
+ida_netnode.netnode.supfirst_idx8
+ida_netnode.netnode.supnext
+ida_struct.get_member_name
+ida_struct.get_member_tinfo(tinfo_t, mptr)
+ida_struct.get_or_guess_member_tinfo(tinfo_t, mptr)
+ida_struct.get_member_tinfo
+ida_struct.get_or_guess_member_tinfo
+ida_struct.save_struc
+ida_struct.set_member_tinfo
+ida_ida.AF_ANORET
+ida_ida.AF_CHKUNI
+ida_ida.AF_DATOFF
+ida_ida.AF_DOCODE
+ida_ida.AF_DODATA
+ida_ida.AF_FTAIL
+ida_ida.AF_HFLIRT
+ida_ida.AF_JUMPTBL
+ida_ida.AF_MEMFUNC
+ida_ida.AF_PURDAT
+ida_ida.AF_REGARG
+ida_ida.AF_SIGCMT
+ida_ida.AF_SIGMLT
+ida_ida.AF_STKARG
+ida_ida.AF_TRFUNC
+ida_ida.AF_VERSP
+ida_ida.AF_STRLIT
+ida_ida.STRF_AUTO
+ida_ida.STRF_COMMENT
+ida_ida.STRF_GEN
+ida_ida.STRF_SAVECASE
+ida_ida.STRF_SERIAL
+ida_ida.STRF_UNICODE
+ida_ida.OFLG_LZERO
+ida_ida.lambda thing: thing
+ida_ida.lambda thing: thing
+ida_ida.lambda thing: thing
+ida_ida.show_all_comments
+ida_ida.show_comments
+ida_ida.show_repeatables
+ida_ida.to_ea
+ida_ida.idainfo.strlit_break
+ida_ida.idainfo.strlit_pref
+ida_ida.idainfo.strlit_sernum
+ida_ida.idainfo.strlit_zeroes
+ida_ida.idainfo.strlit_flags
+ida_ida.idainfo.start_ea
+ida_ida.idainfo.bin_prefix_size
+[ida_ida.idainfo.procname, ida_ida.idainfo.procname]
+ida_ida.idainfo.is_graph_view and ida_ida.idainfo.set_graph_view
+ida_ida.idainfo.is_be and ida_ida.idainfo.set_be
+ida_ida.idainfo.max_autoname_len
+ida_ida.idainfo.omax_ea
+ida_ida.idainfo.omin_ea
+ida_ida.idainfo.outflags binary operations with: OFLG_GEN_ASSUME
+ida_ida.idainfo.is_auto_enabled and ida_ida.idainfo.set_auto_enabled
+ida_ida.idainfo.outflags binary operations with: OFLG_GEN_NULL
+ida_ida.idainfo.outflags binary operations with: OFLG_GEN_ORG
+ida_ida.idainfo.outflags binary operations with: OFLG_PREF_SEG
+ida_ida.idainfo.outflags binary operations with: OFLG_SHOW_AUTO
+ida_ida.idainfo.outflags binary operations with: OFLG_SHOW_PREF
+ida_ida.idainfo.outflags binary operations with: OFLG_SHOW_VOID
+ida_ida.idainfo.start_ip
+ida_ida.idainfo.start_sp
+ida_ida.idainfo.lflags binary operations with: LFLG_WIDE_HBF
+
+
+ida_fixup.FIXUPF_CREATED
+ida_fixup.FIXUPF_EXTDEF
+ida_fixup.FIXUPF_REL
+0
+0
+ida_bytes.STRCONV_ESCAPE
+0
+0
+ida_bytes.DELIT_DELNAMES
+ida_bytes.DELIT_EXPAND
+ida_bytes.DELIT_NOTRUNC
+ida_bytes.DELIT_SIMPLE
+ida_bytes.FF_STRLIT
+ida_bytes.FF_DWORD
+ida_bytes.FF_OWORD
+ida_bytes.FF_QWORD
+ida_bytes.FF_STRUCT
+ida_bytes.FF_TBYTE
+0
+ida_bytes.FF_YWORD
+ida_bytes.FF_ZWORD
+0
+ida_bytes.add_hidden_range
+ida_bytes.strlit_flag
+ida_bytes.del_value
+ida_bytes.del_hidden_range
+ida_bytes.create_16bit_data
+ida_bytes.create_32bit_data
+ida_bytes.create_align
+ida_bytes.create_byte
+ida_bytes.create_custdata
+ida_bytes.create_double
+ida_bytes.create_dword
+ida_bytes.ida_idaapi._BC695.false_p
+ida_bytes.create_float
+ida_bytes.set_immd
+ida_bytes.create_oword
+ida_bytes.create_packed_real
+ida_bytes.create_qword
+ida_bytes.create_struct
+ida_bytes.create_tbyte
+ida_bytes.create_word
+ida_bytes.create_yword
+ida_bytes.create_zword
+ida_bytes.create_data
+ida_bytes.del_items
+ida_bytes.del_items(ea, flags, size)
+ida_bytes.dword_flag
+ida_bytes.f_has_xref
+ida_bytes.f_is_strlit
+ida_bytes.f_is_align
+ida_bytes.f_is_byte
+ida_bytes.f_is_code
+ida_bytes.f_is_custom
+ida_bytes.f_is_data
+ida_bytes.f_is_double
+ida_bytes.f_is_dword
+ida_bytes.f_is_float
+ida_bytes.f_is_head
+ida_bytes.f_is_not_tail
+ida_bytes.f_is_oword
+ida_bytes.f_is_pack_real
+ida_bytes.f_is_qword
+ida_bytes.f_is_struct
+ida_bytes.f_is_tail
+ida_bytes.f_is_tbyte
+ida_bytes.f_is_word
+ida_bytes.f_is_yword
+ida_bytes.get_default_radix
+ida_bytes.get_full_flags
+ida_bytes.get_dword
+ida_bytes.get_wide_byte
+ida_bytes.get_wide_word
+ida_bytes.get_wide_dword
+ida_bytes.get_original_dword
+ida_bytes.put_dword
+ida_bytes.patch_dword
+ida_bytes.add_dword
+ida_bytes.get_radix
+ida_bytes.get_strlit_contents
+ida_bytes.get_strlit_contents
+ida_bytes.get_flags
+ida_bytes.get_hidden_range
+ida_bytes.get_hidden_range_num
+ida_bytes.get_hidden_range_qty
+ida_bytes.get_bytes
+ida_bytes.get_bytes_and_mask
+ida_bytes.get_max_strlit_length
+ida_bytes.get_next_hidden_range
+ida_bytes.get_prev_hidden_range
+ida_bytes.get_zero_ranges
+ida_bytes.getn_hidden_range
+ida_bytes.has_extra_cmts
+ida_bytes.has_xref
+ida_bytes.has_value
+ida_bytes.hidden_range_t
+ida_bytes.is_strlit
+ida_bytes.is_align
+ida_bytes.is_byte
+ida_bytes.is_char
+ida_bytes.is_char0
+ida_bytes.is_char1
+ida_bytes.is_code
+ida_bytes.is_custfmt
+ida_bytes.is_custfmt0
+ida_bytes.is_custfmt1
+ida_bytes.is_custom
+ida_bytes.is_data
+ida_bytes.is_defarg
+ida_bytes.is_defarg0
+ida_bytes.is_defarg1
+ida_bytes.is_double
+ida_bytes.is_dword
+ida_bytes.is_mapped
+ida_bytes.is_enum
+ida_bytes.is_enum0
+ida_bytes.is_enum1
+ida_bytes.is_float
+ida_bytes.is_float0
+ida_bytes.is_float1
+ida_bytes.is_flow
+ida_bytes.is_fltnum
+ida_bytes.is_forced_operand
+ida_bytes.is_func
+ida_bytes.is_head
+ida_bytes.has_immd
+ida_bytes.is_loaded
+ida_bytes.is_not_tail
+ida_bytes.is_numop
+ida_bytes.is_numop0
+ida_bytes.is_numop1
+ida_bytes.is_off
+ida_bytes.is_off0
+ida_bytes.is_off1
+ida_bytes.is_oword
+ida_bytes.is_pack_real
+ida_bytes.is_qword
+ida_bytes.is_seg
+ida_bytes.is_seg0
+ida_bytes.is_seg1
+ida_bytes.is_stkvar
+ida_bytes.is_stkvar0
+ida_bytes.is_stkvar1
+ida_bytes.is_stroff
+ida_bytes.is_stroff0
+ida_bytes.is_stroff1
+ida_bytes.is_struct
+ida_bytes.is_tail
+ida_bytes.is_tbyte
+ida_bytes.is_unknown
+ida_bytes.is_suspop
+ida_bytes.is_word
+ida_bytes.is_yword
+ida_bytes.is_zword
+ida_bytes.create_strlit
+lambda *args: False
+ida_bytes.clr_op_type
+ida_bytes.oword_flag
+ida_bytes.patch_bytes
+ida_bytes.print_strlit_type
+ida_bytes.put_bytes
+ida_bytes.qword_flag
+ida_bytes.tbyte_flag
+ida_bytes.update_hidden_range
+ida_bytes.yword_flag
+ida_bytes.zword_flag
+ida_bytes.get_opinfo(buf, ea, n, flags)
+ida_bytes.create_data(ea, FF_STRLIT, length, ida_netnode.BADNODE)
+ida_bytes.FF_BYTE
+ida_bytes.chunk_size
+ida_bytes.chunk_start
+lambda *args: False
+lambda *args: False
+ida_bytes.free_chunk
+lambda *args: False
+lambda *args: False
+ida_bytes.next_addr
+ida_bytes.next_chunk
+ida_bytes.next_that
+ida_bytes.prev_addr
+ida_bytes.prev_chunk
+ida_bytes.prev_that
+ida_bytes.byte_flag
+ida_bytes.align_flag
+ida_bytes.bin_flag
+ida_bytes.byte_flag
+ida_bytes.char_flag
+ida_bytes.code_flag
+ida_bytes.cust_flag
+ida_bytes.custfmt_flag
+ida_bytes.dec_flag
+ida_bytes.double_flag
+ida_bytes.enum_flag
+ida_bytes.float_flag
+ida_bytes.flt_flag
+ida_bytes.hex_flag
+ida_bytes.num_flag
+ida_bytes.oct_flag
+ida_bytes.off_flag
+ida_bytes.packreal_flag
+ida_bytes.seg_flag
+ida_bytes.stkvar_flag
+ida_bytes.stroff_flag
+ida_bytes.stru_flag
+ida_bytes.word_flag
+lambda *args: False
+ida_bytes.op_stroff(insn_t, n, path, path_len, delta)
+removed; no substitution
+ida_idaapi.pycim_get_widget
+ida_idaapi.pycim_get_widget
+ida_hexrays.get_widget_vdui
+ida_hexrays.hx_get_widget_vdui

@@ -1,0 +1,648 @@
+ida_bytes.get_strlit_contents
+idc.get_reg_value
+idc.get_name_ea_simple
+idc.add_bpt
+idc.CompileEx(file, 1)
+idc.compile_idc_file(input) if is_file else compile_idc_text(input)
+idc.op_plain_offset(ea, -1, base)
+idc.op_num(ea, -1)
+idc.op_chr(ea, -1)
+idc.op_seg(ea, -1)
+idc.op_dec(ea, -1)
+idc.op_man(ea, 0, str)
+idc.op_man(ea, 1, str)
+idc.set_inf_attr(INF_STRLIT_BREAK, x)
+idc.set_inf_attr(INF_LOW_OFF, x)
+idc.set_inf_attr(INF_HIGH_OFF, x)
+idc.set_inf_attr(INF_MAXREF, x)
+idc.set_flag(INF_GENFLAGS, INFFL_AUTO, x)
+idc.set_flag(INF_CMTFLAG, SW_ALLCMT, x)
+idc.set_flag(INF_OUTFLAGS, OFLG_SHOW_VOID, x)
+idc.set_inf_attr(INF_XREFNUM, x)
+idc.set_inf_attr(INF_INDENT, x)
+idc.set_inf_attr(INF_COMMENT, x)
+idc.set_flag(INF_OUTFLAGS, OFLG_SHOW_AUTO, x)
+ida_ida.inf_get_min_ea()
+ida_ida.inf_get_max_ea()
+ida_ida.inf_get_min_ea()
+ida_ida.inf_get_min_ea()
+idc.set_inf_attr(INF_START_CS, x)
+idc.set_inf_attr(INF_START_IP, x)
+idc.auto_mark_range(x, (x)+1, AU_CODE);
+idc.add_enum_member(enum_id, name, value, -1)
+idc.add_struc(index, name, 0)
+idc.add_struc(index, name, 1)
+idc.op_stroff(ea, n, strid, 0)
+idc.op_enum(ea, n, enumid, 0)
+idc.del_enum_member(id, v, 0, mask)
+idc.get_enum_member(id, v, 0, mask)
+idc.plan_and_wait
+idc.plan_and_wait
+idc.plan_and_wait
+idc.create_struct(ea, -1, name)
+idc.get_name(ea, ida_name.GN_VISIBLE)
+ida_name.get_ea_name
+idc.set_name(ea, name, idaapi.SN_CHECK)
+idc.get_func_attr(ea, FUNCATTR_FRAME)
+idc.get_func_attr(ea, FUNCATTR_FRSIZE)
+idc.get_func_attr(ea, FUNCATTR_FRREGS)
+idc.get_func_attr(ea, FUNCATTR_ARGSIZE)
+idc.get_func_attr(ea, FUNCATTR_FLAGS)
+idc.set_func_attr(ea, FUNCATTR_FLAGS, flags)
+idc.AddSeg
+idc.del_segm
+idc.set_segment_bounds
+idc.set_segm_name
+idc.set_segm_class
+idc.set_segm_addressing
+idc.set_default_sreg_value
+idc.get_cmt(ea, 0)
+idc.get_cmt(ea, 1)
+ida_bytes.create_data(ea, FF_BYTE, 1, ida_idaapi.BADADDR)
+ida_bytes.create_data(ea, FF_WORD, 2, ida_idaapi.BADADDR)
+ida_bytes.create_data(ea, FF_DWORD, 4, ida_idaapi.BADADDR)
+ida_bytes.create_data(ea, FF_QWORD, 8, ida_idaapi.BADADDR)
+ida_bytes.create_data(ea, FF_OWORD, 16, ida_idaapi.BADADDR)
+ida_bytes.create_data(ea, FF_YWORD, 32, ida_idaapi.BADADDR)
+ida_bytes.create_data(ea, FF_FLOAT, 4, ida_idaapi.BADADDR)
+ida_bytes.create_data(ea, FF_DOUBLE, 8, ida_idaapi.BADADDR)
+ida_bytes.create_data(ea, FF_PACKREAL, 10, ida_idaapi.BADADDR)
+ida_bytes.create_data(ea, FF_TBYTE, 10, ida_idaapi.BADADDR)
+ida_bytes.create_data(ea, FF_CUSTOM, size, dtid|((fid)<<16))
+idc.split_sreg_range(ea, reg, value, SR_user)
+idc.selector_by_name
+idc.to_ea
+idc.to_ea
+idc.create_insn
+idc.set_name
+idc.make_array
+ida_bytes.create_data
+idc.get_reg_value
+idc.set_reg_value
+idc.get_wide_byte
+idc.get_wide_word
+idc.get_wide_dword
+idc.get_qword
+idc.get_name_ea_simple
+idc.get_screen_ea
+idc.get_tinfo
+idc.op_chr
+idc.op_seg
+idc.op_num
+idc.op_dec
+idc.op_oct
+idc.op_bin
+idc.op_hex
+idc.op_man
+idc.toggle_sign
+idc.toggle_bnot
+idc.op_enum
+idc.op_stroff
+idc.op_stkvar
+idc.op_flt
+idc.op_offset
+idc.op_plain_offset
+idc.create_struct
+ida_kernwin.jumpto
+idc.gen_file
+idc.gen_flow_graph
+idc.gen_simple_call_chart
+ida_bytes.get_db_byte
+idc.read_dbg_byte
+idc.read_dbg_word
+idc.read_dbg_dword
+idc.read_dbg_qword
+idc.read_dbg_memory
+idc.write_dbg_memory
+idc.patch_dbg_byte
+ida_bytes.patch_byte
+ida_bytes.patch_word
+ida_bytes.patch_dword
+ida_bytes.patch_qword
+ida_idp.set_processor_type
+ida_idp.set_target_assembler
+idc.batch
+idc.set_default_sreg_value
+idc.get_sreg
+idc.split_sreg_range
+idc.gen_file(OFILE_MAP, path, 0, BADADDR, GENFLG_MAPSEG|GENFLG_MAPNAME)
+idc.gen_file(OFILE_ASM, path, ea1, ea2, 0)
+idc.gen_file(OFILE_EXE, path, 0, BADADDR, 0)
+ida_kernwin.ask_str(defval, 0, prompt)
+ida_kernwin.ask_file
+ida_kernwin.ask_addr
+ida_kernwin.ask_long
+ida_kernwin.ask_seg
+ida_kernwin.ask_str(defval, ida_kernwin.HIST_IDENT, prompt)
+ida_kernwin.ask_yn
+idc.delete_all_segments
+idc.add_segm_ex
+idc.set_segment_bounds
+idc.set_segm_name
+idc.set_segm_class
+idc.set_segm_addressing
+idc.set_segm_attr
+idc.get_segm_attr
+ida_bytes.change_storage_type
+idc.move_segm
+ida_segment.rebase_program
+idc.get_nsec_stamp
+ida_name.get_name_ea
+idc.get_segm_by_sel
+idc.get_curline
+idc.read_selection_start
+idc.read_selection_end
+idc.get_first_seg
+idc.get_next_seg
+idc.get_segm_name
+ida_bytes.get_cmt
+ida_bytes.get_forced_operand
+idc.generate_disasm_line
+idc.print_insn_mnem
+idc.get_operand_type
+idc.get_operand_value
+ida_ua.decode_insn
+ida_bytes.next_addr
+ida_bytes.prev_addr
+ida_bytes.next_not_tail
+ida_bytes.prev_not_tail
+ida_bytes.get_item_head
+ida_bytes.get_item_end
+idc.get_item_size
+idc.plan_and_wait
+idc.exec_idc
+idc.eval_idc
+ida_pro.qexit
+ida_search.find_suspop
+ida_search.find_code
+ida_search.find_data
+ida_search.find_unknown
+ida_search.find_defined
+ida_search.find_imm
+ida_xref.add_cref
+ida_xref.del_cref
+ida_xref.get_first_cref_from
+ida_xref.get_first_cref_to
+ida_xref.get_next_cref_from
+ida_xref.get_next_cref_to
+ida_xref.get_first_fcref_from
+ida_xref.get_first_fcref_to
+ida_xref.get_next_fcref_from
+ida_xref.get_next_fcref_to
+ida_xref.get_first_dref_from
+ida_xref.get_next_dref_from
+ida_xref.get_first_dref_to
+ida_xref.get_next_dref_to
+idc.get_xref_type
+ida_auto.auto_unmark
+ida_auto.auto_mark_range
+ida_segment.set_selector
+idc.sel2para
+idc.sel2para
+idc.find_selector
+ida_segment.del_selector
+ida_funcs.add_func
+ida_funcs.del_func
+ida_funcs.set_func_end
+idc.get_next_func
+idc.get_prev_func
+idc.get_func_attr
+idc.set_func_attr
+idc.get_func_name
+idc.get_func_cmt
+idc.set_func_cmt
+idc.choose_func
+idc.get_func_off_str
+idc.define_local_var
+idc.find_func_end
+idc.get_frame_size
+idc.set_frame_size
+idc.get_spd
+idc.get_sp_delta
+idc.del_stkpnt
+idc.add_auto_stkpnt
+ida_frame.recalc_spd
+idc.get_min_spd_ea
+idc.get_fchunk_attr
+idc.set_fchunk_attr
+ida_funcs.get_fchunk_referer
+idc.get_next_fchunk
+idc.get_prev_fchunk
+idc.append_func_tail
+idc.remove_fchunk
+idc.set_tail_owner
+idc.first_func_chunk
+idc.next_func_chunk
+ida_entry.get_entry_qty
+ida_entry.add_entry
+ida_entry.get_entry_name
+ida_entry.get_entry_ordinal
+ida_entry.get_entry
+ida_entry.rename_entry
+ida_fixup.get_next_fixup_ea
+ida_fixup.get_prev_fixup_ea
+idc.get_fixup_target_type
+idc.get_fixup_target_flags
+idc.get_fixup_target_sel
+idc.get_fixup_target_off
+idc.get_fixup_target_dis
+idc.set_fixup
+ida_fixup.del_fixup
+idc.put_bookmark
+idc.get_bookmark
+idc.get_bookmark_desc
+ida_struct.get_struc_qty
+ida_struct.get_first_struc_idx
+ida_struct.get_last_struc_idx
+ida_struct.get_next_struc_idx
+ida_struct.get_prev_struc_idx
+ida_struct.get_struc_idx
+ida_struct.get_struc_by_idx
+ida_struct.get_struc_id
+ida_struct.get_struc_name
+ida_struct.get_struc_cmt
+ida_struct.get_struc_size
+idc.get_member_qty
+idc.get_prev_offset
+idc.get_next_offset
+idc.get_first_member
+idc.get_last_member
+idc.get_member_offset
+idc.get_member_name
+idc.get_member_cmt
+idc.get_member_size
+idc.get_member_flag
+idc.get_member_strid
+idc.get_member_id
+idc.add_struc
+idc.is_union
+idc.del_struc
+idc.set_struc_idx
+ida_struct.set_struc_name
+ida_struct.set_struc_cmt
+idc.set_struc_align
+idc.add_struc_member
+idc.del_struc_member
+idc.set_member_name
+idc.set_member_type
+idc.set_member_cmt
+idc.expand_struc
+ida_nalt.set_source_linnum
+ida_nalt.get_source_linnum
+ida_nalt.del_source_linnum
+ida_lines.add_sourcefile
+ida_lines.get_sourcefile
+ida_lines.del_sourcefile
+idc.create_array
+idc.get_array_id
+idc.rename_array
+idc.delete_array
+idc.set_array_long
+idc.set_array_string
+idc.get_array_element
+idc.del_array_element
+idc.get_first_index
+idc.get_next_index
+idc.get_last_index
+idc.get_prev_index
+idc.set_hash_long
+idc.set_hash_string
+idc.get_hash_long
+idc.get_hash_string
+idc.del_hash_string
+idc.get_first_hash_key
+idc.get_next_hash_key
+idc.get_last_hash_key
+idc.get_prev_hash_key
+ida_enum.get_enum_qty
+ida_enum.getn_enum
+ida_enum.get_enum_idx
+ida_enum.get_enum
+ida_enum.get_enum_name
+ida_enum.get_enum_cmt
+ida_enum.get_enum_size
+ida_enum.get_enum_width
+ida_enum.get_enum_flag
+ida_enum.get_enum_member_by_name
+ida_enum.get_enum_member_value
+ida_enum.get_enum_member_bmask
+ida_enum.get_enum_member_enum
+idc.get_enum_member
+ida_enum.get_first_bmask
+ida_enum.get_last_bmask
+ida_enum.get_next_bmask
+ida_enum.get_prev_bmask
+idc.get_first_enum_member
+idc.get_last_enum_member
+idc.get_next_enum_member
+idc.get_prev_enum_member
+idc.get_enum_member_name
+idc.get_enum_member_cmt
+idc.add_enum
+ida_enum.del_enum
+ida_enum.set_enum_idx
+ida_enum.set_enum_name
+ida_enum.set_enum_cmt
+ida_enum.set_enum_flag
+ida_enum.set_enum_width
+ida_enum.set_enum_bf
+idc.add_enum_member
+idc.del_enum_member
+ida_enum.set_enum_member_name
+ida_enum.set_enum_member_cmt
+ida_enum.is_bf
+idc.set_bmask_name
+idc.get_bmask_name
+idc.set_bmask_cmt
+idc.get_bmask_cmt
+idc.get_inf_attr
+idc.get_inf_attr
+idc.get_inf_attr
+idc.set_inf_attr
+idc.set_inf_attr
+idc.set_inf_attr
+idc.process_config_line
+ida_kernwin.add_idc_hotkey
+ida_kernwin.del_idc_hotkey
+ida_nalt.get_root_filename
+ida_nalt.get_input_file_path
+ida_nalt.set_root_filename
+idc.retrieve_input_file_size
+idc.call_system
+idc.qsleep
+idc.idadir
+idc.get_idb_path
+ida_nalt.retrieve_input_file_md5
+idc.op_offset_high16
+ida_bytes.create_align
+idc.demangle_name
+ida_bytes.set_manual_insn
+ida_bytes.get_manual_insn
+idc.set_array_params
+idc.add_default_til
+idc.import_type
+idc.get_ordinal_qty
+idc.set_local_type
+idc.get_local_tinfo
+idc.get_numbered_type_name
+idc.print_decls
+ida_auto.set_ida_state
+ida_kernwin.refresh_idaview_anyway
+ida_kernwin.refresh_choosers
+ida_loader.load_and_run_plugin
+ida_funcs.plan_to_apply_idasgn
+idc.apply_type
+idc.get_str_type
+ida_bytes.get_original_byte
+ida_bytes.add_hidden_range
+idc.update_hidden_range
+ida_bytes.del_hidden_range
+ida_bytes.del_hidden_range
+idc.get_type
+idc.guess_type
+idc.parse_decl
+idc.parse_decls
+idc.get_color
+idc.set_color
+ida_dbg.get_bpt_qty
+idc.get_bpt_ea
+idc.get_bpt_attr
+idc.set_bpt_attr
+idc.set_bpt_cond
+idc.set_bpt_cond
+ida_dbg.add_bpt
+ida_dbg.add_bpt
+ida_dbg.del_bpt
+ida_dbg.enable_bpt
+ida_dbg.check_bpt
+ida_dbg.load_debugger
+ida_dbg.start_process
+ida_dbg.exit_process
+ida_dbg.suspend_process
+ida_dbg.get_processes().size
+ida_dbg.get_processes()[idx].pid
+ida_dbg.get_processes()[idx].name
+ida_dbg.attach_process
+ida_dbg.detach_process
+ida_dbg.get_thread_qty
+ida_dbg.getn_thread
+ida_dbg.get_current_thread
+ida_dbg.select_thread
+ida_dbg.suspend_thread
+ida_dbg.resume_thread
+idc.get_first_module
+idc.get_next_module
+idc.get_module_name
+idc.get_module_size
+ida_dbg.step_into
+ida_dbg.step_over
+ida_dbg.run_to
+ida_dbg.step_until_ret
+ida_dbg.wait_for_next_event
+ida_dbg.get_process_state
+ida_dbg.set_debugger_options
+ida_dbg.set_remote_debugger
+ida_dbg.get_debugger_event_cond
+ida_dbg.set_debugger_event_cond
+idc.get_event_id
+idc.get_event_pid
+idc.get_event_tid
+idc.get_event_ea
+idc.is_event_handled
+idc.get_event_module_name
+idc.get_event_module_base
+idc.get_event_module_size
+idc.get_event_exit_code
+idc.get_event_info
+idc.get_event_bpt_hea
+idc.get_event_exc_code
+idc.get_event_exc_ea
+idc.get_event_exc_info
+idc.can_exc_continue
+ida_dbg.refresh_debugger_memory
+ida_segment.take_memory_snapshot
+idc.enable_tracing
+ida_dbg.get_step_trace_options
+ida_dbg.set_step_trace_options
+ida_dbg.define_exception
+ida_typeinf.begin_type_updating
+ida_typeinf.end_type_updating
+ida_typeinf.begin_type_updating
+ida_typeinf.end_type_updating
+idc.validate_idb_names
+idc.set_segm_attr(ea, SEGATTR_ALIGN, alignment)
+idc.set_segm_attr(ea, SEGATTR_COMB, comb)
+idc.set_cmt(ea, cmt, 0)
+idc.set_cmt(ea, cmt, 1)
+ida_bytes.del_items
+ida_bytes.del_items
+ida_lines.get_extra_cmt(ea, E_PREV + (n))
+ida_lines.get_extra_cmt(ea, E_NEXT + (n))
+ida_lines.update_extra_cmt(ea, E_PREV + (n), line)
+ida_lines.update_extra_cmt(ea, E_NEXT + (n), line)
+ida_lines.del_extra_cmt(ea, E_PREV + (n))
+ida_lines.del_extra_cmt(ea, E_NEXT + (n))
+ida_frame.add_user_stkpnt
+ida_frame.add_user_stkpnt
+idc.get_name(ea, ida_name.GN_VISIBLE | calc_gtn_flags(From, ea))
+idc.get_name(ea, calc_gtn_flags(From, ea))
+ida_kernwin.msg
+ida_kernwin.msg
+ida_segment.del_segm
+ida_auto.auto_wait
+ida_dbg.load_trace_file
+ida_dbg.save_trace_file
+ida_dbg.is_valid_trace_file
+ida_dbg.diff_trace_file
+ida_dbg.get_trace_file_desc
+ida_dbg.set_trace_file_desc
+ida_dbg.get_tev_qty
+ida_dbg.get_tev_ea
+ida_dbg.get_tev_type
+ida_dbg.get_tev_tid
+ida_dbg.get_tev_reg
+ida_dbg.get_tev_mem_qty
+ida_dbg.get_tev_mem
+ida_dbg.get_tev_mem_ea
+ida_dbg.get_call_tev_callee
+ida_dbg.get_ret_tev_return
+ida_dbg.get_bpt_tev_ea
+idc.force_bl_jump
+idc.force_bl_call
+idc.send_dbg_command
+idc.send_dbg_command
+idc.send_dbg_command
+idc.send_dbg_command
+idc.set_inf_attr(INF_APPCALL_OPTIONS, x)
+idc.get_inf_attr(INF_APPCALL_OPTIONS)
+ida_ida.AF_ANORET
+ida_ida.AF_CHKUNI
+ida_ida.AF_DATOFF
+ida_ida.AF_DOCODE
+ida_ida.AF_DODATA
+ida_ida.AF_FTAIL
+ida_ida.AF_HFLIRT
+ida_ida.AF_JUMPTBL
+ida_ida.AF_PURDAT
+ida_ida.AF_REGARG
+ida_ida.AF_SIGCMT
+ida_ida.AF_SIGMLT
+ida_ida.AF_STKARG
+ida_ida.AF_TRFUNC
+ida_ida.AF_VERSP
+ida_ida.AF_STRLIT
+ida_ida.STRF_AUTO
+ida_ida.STRF_COMMENT
+ida_ida.STRF_GEN
+ida_ida.STRF_SAVECASE
+ida_ida.STRF_SERIAL
+ida_nalt.STRTYPE_C
+ida_nalt.STRTYPE_LEN2
+ida_nalt.STRTYPE_LEN4
+ida_nalt.STRTYPE_PASCAL
+ida_nalt.STRTYPE_TERMCHR
+ida_nalt.STRTYPE_LEN2_16
+ida_nalt.STRTYPE_LEN4_16
+ida_nalt.STRTYPE_C_16
+ida_bytes.DELIT_SIMPLE
+ida_bytes.DELIT_EXPAND
+ida_bytes.DELIT_DELNAMES
+ida_bytes.FF_STRLIT
+ida_bytes.FF_DWORD
+ida_bytes.FF_OWORD
+ida_bytes.FF_QWORD
+ida_bytes.FF_STRUCT
+ida_bytes.FF_TBYTE
+ida_fixup.FIXUP_OFF8
+ida_fixup.FIXUPF_CREATED
+ida_fixup.FIXUPF_EXTDEF
+ida_fixup.FIXUPF_REL
+ida_fixup.FIXUPF_UNUSED
+ida_bytes.get_full_flags
+idc.resume_process
+ida_bytes.is_mapped
+ida_bytes.has_value
+ida_bytes.is_byte
+ida_bytes.is_word
+ida_bytes.is_dword
+ida_bytes.is_qword
+ida_bytes.is_oword
+ida_bytes.is_tbyte
+ida_bytes.is_float
+ida_bytes.is_double
+ida_bytes.is_strlit
+ida_bytes.is_struct
+ida_bytes.is_align
+ida_bytes.is_char0
+ida_bytes.is_char1
+ida_bytes.is_code
+ida_bytes.is_data
+ida_bytes.is_defarg0
+ida_bytes.is_defarg1
+ida_bytes.is_enum0
+ida_bytes.is_enum1
+ida_bytes.is_flow
+ida_bytes.is_head
+ida_bytes.is_loaded
+ida_bytes.is_off0
+ida_bytes.is_off1
+ida_bytes.is_pack_real
+ida_bytes.is_seg0
+ida_bytes.is_seg1
+ida_bytes.is_stkvar0
+ida_bytes.is_stkvar1
+ida_bytes.is_stroff0
+ida_bytes.is_stroff1
+ida_bytes.is_tail
+ida_bytes.is_unknown
+ida_segment.SEGMOD_KEEP
+ida_segment.SEGMOD_KILL
+ida_segment.SEGMOD_SILENT
+ida_idp.SETPROC_LOADER_NON_FATAL
+ida_idp.SETPROC_IDB
+ida_idp.SETPROC_LOADER
+idc.INF_DATABASE_CHANGE_COUNT
+idc.INF_LOWOFF
+idc.INF_HIGHOFF
+idc.INF_PRIVRANGE_START_EA
+idc.INF_PRIVRANGE_END_EA
+idc.INF_TYPE_XREFNUM
+idc.INF_REFCMTNUM
+idc.INF_XREFFLAG
+idc.INF_MAX_AUTONAME_LEN
+idc.INF_SHORT_DEMNAMES
+idc.INF_LONG_DEMNAMES
+idc.INF_CMTFLG
+idc.INF_LIMITER
+idc.INF_BIN_PREFIX_SIZE
+idc.INF_CC_ID
+idc.INF_CC_CM
+idc.INF_CC_SIZE_I
+idc.INF_CC_SIZE_B
+idc.INF_CC_SIZE_E
+idc.INF_CC_DEFALIGN
+idc.INF_CC_SIZE_S
+idc.INF_CC_SIZE_L
+idc.INF_CC_SIZE_LL
+idc.INF_CC_SIZE_LDBL
+ida_nalt.V695_REF_VHIGH
+ida_nalt.V695_REF_VLOW
+ida_typeinf.UTP_STRUCT
+ida_typeinf.UTP_ENUM
+idc.print_operand
+ida_bytes.patch_dword
+ida_loader.load_and_run_plugin("idapython", 3)
+idc.exec_python
+idc.get_bytes
+idc.get_strlit_contents
+idc.clear_trace
+idc.find_binary
+idc.find_text
+idc.next_head
+idc.prev_head
+ida_kernwin.process_ui_action
+idc.save_database
+ida_ida.inf_get_procname()
+idc.get_segm_start
+idc.get_segm_end
+idc.set_segm_type
