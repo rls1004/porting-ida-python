@@ -42,7 +42,7 @@ idc.plan_and_wait
 idc.create_struct(ea, -1, name)
 idc.get_name(ea, ida_name.GN_VISIBLE)
 ida_name.get_ea_name
-idc.set_name(ea, name, idaapi.SN_CHECK)
+idc.set_name(ea, name, idc.SN_CHECK)
 idc.get_func_attr(ea, FUNCATTR_FRAME)
 idc.get_func_attr(ea, FUNCATTR_FRSIZE)
 idc.get_func_attr(ea, FUNCATTR_FRREGS)
