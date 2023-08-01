@@ -1,7 +1,6 @@
 ida_kernwin.Choose2
 ida_ua.insn_t.Operands
 ida_kernwin.Choose2.OnSelectLine
-ida_bytes.data_type_t.__init__
 ida_idp.IDP_Hooks.auto_queue_empty
 ida_kernwin.AST_ENABLE_FOR_FORM
 ida_kernwin.AST_DISABLE_FOR_FORM

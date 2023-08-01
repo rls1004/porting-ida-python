@@ -1,7 +1,6 @@
 ida_kernwin.Choose
 ida_ua.insn_t.ops
 ida_kernwin.Choose.OnSelectLine
-ida_bytes.data_type_t.__init__
 ida_idp.IDP_Hooks.ev_auto_queue_empty
 ida_kernwin.AST_ENABLE_FOR_WIDGET
 ida_kernwin.AST_DISABLE_FOR_WIDGET
